@@ -1,0 +1,118 @@
+body{
+  font-family: 'Asap', sans-serif;
+  text-rendering: optimizeLegibility;
+  font-size: 1.7em;
+}
+
+.photo-info-box {
+
+ border: 1px solid #e5e5e5;
+  -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+  box-shadow: 0 1px 1px rgba(0,0,0,.04);
+  background-color: #fff;
+
+
+}
+
+.info-box-header {
+  padding: 6px;
+ border-bottom: 1px solid #e5e5e5;
+   -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+  box-shadow: 0 1px 1px rgba(0,0,0,.04);
+ background-color: #fff;
+
+}
+
+  
+
+
+.photo-info-box .box-inner {
+border-top: 1px solid #e5e5e5;
+background-color: #fff;
+padding: 6px;
+
+}
+
+.photo-info-box .box-inner .text {
+padding: 7px 9px 19px;
+
+}
+
+.photo-info-box .box-inner .data {
+
+	font-weight: bold;
+}
+
+.photo-info-box .info-box-footer{
+
+border-top: 1px solid #ddd;
+background-color: #ddd;
+padding: 10px;
+
+}
+
+
+.modal-dialog {
+width: 90% !important;
+
+
+
+}
+
+.modal-body {
+overflow: auto;
+height: 500px !important;
+min-height: 300px !important;
+}
+
+.modal_thumbnails {
+
+    width: 150px;
+    height: 100px !important;
+}
+
+#set_user_image {
+
+margin:10px;
+
+}
+
+
+#modal_sidebar {
+
+position: fixed !important;
+
+}
+
+/*File upload button style*/
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+
+/*Dropzone style*/
+.dropzone{
+    background: transparent;
+    border: 3px dashed #ccc;
+    border-radius: 4px;
+}
+
+.message-box{
+  margin: 1em 0;
+}

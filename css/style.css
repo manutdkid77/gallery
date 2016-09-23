@@ -1,0 +1,27 @@
+body{
+  font-family: 'Asap', sans-serif;
+  text-rendering: optimizeLegibility;
+  font-size: 1.7em;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container { flex: 1; }
+
+
+.homepage-photo {
+    width: 200px;
+}
+.thumbnails{
+	display: flex;
+    flex-wrap: wrap;
+}
+.img-container{
+    
+    overflow: hidden;
+    margin: 1em 0;
+}
+
+.grid-item { width: 230px; }
+.grid-item--width2 { width: 310px; }
